@@ -3,7 +3,12 @@ p {
     text-shadow: 2px 2px 5px red;
 }
 
-h1 {
+.headers {
     text-align: center;
-    text-shadow: 2px 2px 5px 
+    text-shadow: 2px 2px 5px black
+}
+
+.window {
+    align-items: center;
+    width: 100%;
 }
