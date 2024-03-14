@@ -10,7 +10,8 @@ p {
 
 .hell {
     font-family: 'Times New Roman', Times, serif;
-    color: brown;
+    color: rgb(62, 189, 23);
     text-align: center;
-    text-shadow: 5px 5px 12px green;
+    text-shadow: 5px 5px 12px rgb(0, 255, 0);
+    background-color: black;
 }
