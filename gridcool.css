@@ -1,24 +1,33 @@
 .container {  display: grid;
-    grid-template-columns: 0.9fr 2.3fr 0.7fr;
-    grid-template-rows: 0.5fr 0.3fr 2.9fr 0.3fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "Logo Butt Butt"
-      "Navi Head Head"
-      "Navi Cont Cont"
-      "Foot Foot .";
-  }
-  
-  .Logo { grid-area: Logo; background-color: blue;}
-  
-  .Navi { grid-area: Navi; background-color: lightblue;}
-  
-  .Foot { grid-area: Foot;}
-  
-  .Butt { grid-area: Butt; background-color: gray;}
-  
-  .Head { grid-area: Head; }
-  
-  .Cont { grid-area: Cont; }
-  
+  grid-template-columns: 0.6fr 2.6fr 0.7fr;
+  grid-template-rows: 0.5fr 0.3fr 2.9fr 0.3fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "Logo Butt Butt"
+    "Navi Head Head"
+    "Navi Cont Cont"
+    "Navi Foot Foot";
+}
+
+.Logo { grid-area: Logo; background-color: black;}
+
+.Butt { grid-area: Butt; background-color: black;}
+
+.Head { grid-area: Head; background-color: rgb(43, 42, 42);
+padding: 1%;
+color: rgb(0, 255, 0);   
+}
+
+.Cont { grid-area: Cont; background-color: black;
+padding: 3%;
+color: rgb(0, 255, 0);
+}
+
+.Navi { grid-area: Navi; background-color: rgb(56, 56, 56);
+border-color: rgb(43, 42, 42);
+border-style: solid;
+color: rgb(0, 255, 0)
+}
+
+.Foot { grid-area: Foot; background-color: black;}
