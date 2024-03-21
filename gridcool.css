@@ -10,13 +10,13 @@
       "Foot Foot .";
   }
   
-  .Logo { grid-area: Logo; }
+  .Logo { grid-area: Logo; background-color: blue;}
   
-  .Navi { grid-area: Navi; }
+  .Navi { grid-area: Navi; background-color: lightblue;}
   
-  .Foot { grid-area: Foot; }
+  .Foot { grid-area: Foot;}
   
-  .Butt { grid-area: Butt; }
+  .Butt { grid-area: Butt; background-color: gray;}
   
   .Head { grid-area: Head; }
   
