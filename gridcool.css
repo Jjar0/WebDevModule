@@ -16,18 +16,18 @@
 
 .Head { grid-area: Head; background-color: rgb(43, 42, 42);
 padding: 1%;
-color: rgb(0, 255, 0);   
+color: white;   
 }
 
 .Cont { grid-area: Cont; background-color: black;
 padding: 3%;
-color: rgb(0, 255, 0);
+color: white;
 }
 
 .Navi { grid-area: Navi; background-color: rgb(56, 56, 56);
 border-color: rgb(43, 42, 42);
 border-style: solid;
-color: rgb(0, 255, 0)
+color: white
 }
 
 .Foot { grid-area: Foot; background-color: black;}
